@@ -451,4 +451,181 @@
 
   /* why choose us section related styles started */
 
+  .why-content {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .why-title {
+      color: #131318;
+      text-align: center;
+      font-family: Mulish;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+  }
+
+  .why-description {
+      width: 643px;
+      color: rgba(19, 19, 24, 0.70);
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      font-family: Mulish;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      margin-left: 399px;
+      margin-right: 399px;
+      margin-bottom: 48px;
+  }
+
+  .choose-card-row1 {
+      margin-left: 135px;
+      margin-right: 135px;
+      display: flex;
+      gap: 24px;
+  }
+
+  .card-hotel {
+      width: 573px;
+      height: 284px;
+      flex-shrink: 0;
+      border-radius: 16px;
+      border: 1px solid rgba(251, 181, 99, 0.20);
+      background: rgba(251, 181, 99, 0.05);
+      padding-left: 32px;
+      padding-top: 32px;
+      padding-bottom: 32px;
+  }
+
+  .card-hotel-img {
+      width: 64px;
+      height: 64px;
+      flex-shrink: 0;
+      margin-bottom: 0px;
+  }
+
+  .card-hotel-title {
+      color: #131318;
+      text-align: start;
+      font-family: Mulish;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      margin-top: 32px;
+      margin-bottom: 16px;
+  }
+
+  .card-hotel-description {
+      width: 486px;
+      color: #5A5A5D;
+      font-family: Mulish;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      margin-top: 0px;
+      margin-right: 55px;
+  }
+
+  .card-map {
+      width: 573px;
+      height: 284px;
+      flex-shrink: 0;
+      border-radius: 16px;
+      border: 1px solid rgba(41, 206, 246, 0.20);
+      background: rgba(41, 206, 246, 0.05);
+      padding-left: 32px;
+      padding-top: 32px;
+      padding-bottom: 32px;
+  }
+
+  .card-map-img {
+      width: 64px;
+      height: 64px;
+      flex-shrink: 0;
+      margin-bottom: 0px;
+  }
+
+  .card-map-title {
+      color: #131318;
+      text-align: start;
+      font-family: Mulish;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      margin-top: 32px;
+      margin-bottom: 16px;
+  }
+
+  .card-map-description {
+      width: 486px;
+      color: #5A5A5D;
+      font-family: Mulish;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      margin-top: 0px;
+      margin-right: 55px;
+  }
+
+  .choose-card-row2 {
+      margin-left: 433px;
+      margin-right: 433px;
+      display: flex;
+      align-items: center;
+      margin-top: 24px;
+  }
+
+  .card-deals {
+      width: 573px;
+      height: 284px;
+      flex-shrink: 0;
+      border-radius: 16px;
+      border: 1px solid rgba(233, 68, 68, 0.20);
+      background: rgba(233, 68, 68, 0.05);
+      padding-left: 32px;
+      padding-top: 32px;
+      padding-bottom: 32px;
+  }
+
+  .card-deals-img {
+      width: 64px;
+      height: 64px;
+      flex-shrink: 0;
+      margin-bottom: 0px;
+  }
+
+  .card-deals-title {
+      color: #131318;
+      text-align: start;
+      font-family: Mulish;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      margin-top: 32px;
+      margin-bottom: 16px;
+  }
+
+  .card-deals-description {
+      width: 486px;
+      color: #5A5A5D;
+      font-family: Mulish;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      margin-top: 0px;
+      margin-right: 55px;
+  }
+
+  /* why choose us section related styles ended */
+
   
