@@ -255,6 +255,7 @@
       font-style: normal;
       font-weight: 800;
       line-height: normal;
+      cursor: pointer;
   }
 
   /* popular tours section related styles ended */
@@ -627,5 +628,265 @@
   }
 
   /* why choose us section related styles ended */
+
+  /* deals & discount section related styles started */
+
+  .deals-discount {
+      margin-top: 100px;
+      margin-left: 135px;
+      margin-right: 135px;
+  }
+
+  .deals-title {
+      color: #131318;
+      text-align: center;
+      font-family: Mulish;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+  }
+
+  .deals-description {
+      width: 643px;
+      color: rgba(19, 19, 24, 0.70);
+      text-align: center;
+      font-family: Mulish;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      margin-left: 263px;
+      margin-right: 263px;
+      margin-bottom: 48px;
+  }
+
+  .deals-box1 {
+      width: 1170px;
+      height: 500px;
+      flex-shrink: 0;
+      border-radius: 16px;
+      background: url(../Images/Group\ 39.png), lightgray 50% / cover no-repeat;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 24px;
+  }
+
+  .deals-details1 {
+      width: 579px;
+      height: 389px;
+      flex-shrink: 0;
+      border-radius: 16px;
+      border: 2px solid #FFF;
+      background: rgba(255, 255, 255, 0.80);
+      backdrop-filter: blur(2.5px);
+      margin-left: 450px;
+      margin-top: 16px;
+      padding-left: 50px;
+      padding-top: 50px;
+  }
+
+  .guest1 {
+      display: flex;
+
+  }
+
+  .guest-img {
+      width: 24px;
+      height: 24px;
+      flex-shrink: 0;
+      margin-right: 8px;
+      margin-bottom: 0px;
+  }
+
+  .guest-txt {
+      color: #5A5A5D;
+      font-family: Mulish;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      display: flex;
+      margin-bottom: 0px;
+      margin-right: 24px;
+  }
+
+  .guest1-title {
+      color: #131318;
+      font-family: Mulish;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      margin-top: 26px;
+      margin-bottom: 16px;
+  }
+
+  .guest1-description {
+      width: 452px;
+      color: #5A5A5D;
+      font-family: Mulish;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      margin-top: 0px;
+      margin-bottom: 16px;
+  }
+
+  .guest1-price {
+      color: #FF5400;
+      font-family: Mulish;
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      margin-top: 0px;
+      margin-bottom: 24px;
+  }
+
+  .book-btn {
+      width: 150px;
+      height: 52px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      border-style: none;
+      background: #FF5400;
+      color: #FFF;
+      text-align: center;
+      font-family: Mulish;
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      cursor: pointer;
+  }
+
+  .deals-box2 {
+      width: 1170px;
+      height: 500px;
+      flex-shrink: 0;
+      border-radius: 16px;
+      background: url(../Images/Group\ 40.png), lightgray 50% / cover no-repeat;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 24px;
+  }
+
+  .deals-details2 {
+      width: 579px;
+      height: 389px;
+      flex-shrink: 0;
+      border-radius: 16px;
+      border: 2px solid #FFF;
+      background: rgba(255, 255, 255, 0.80);
+      backdrop-filter: blur(2.5px);
+      margin-left: 5px;
+      margin-right: 450px;
+      margin-top: 16px;
+      padding-left: 50px;
+      padding-top: 50px;
+  }
+
+  .guest1 {
+      display: flex;
+
+  }
+
+  .guest-img {
+      width: 24px;
+      height: 24px;
+      flex-shrink: 0;
+      margin-right: 8px;
+      margin-bottom: 0px;
+  }
+
+  .guest-txt {
+      color: #5A5A5D;
+      font-family: Mulish;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      display: flex;
+      margin-bottom: 0px;
+      margin-right: 24px;
+  }
+
+  .guest1-title {
+      color: #131318;
+      font-family: Mulish;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      margin-top: 26px;
+      margin-bottom: 16px;
+  }
+
+  .guest1-description {
+      width: 452px;
+      color: #5A5A5D;
+      font-family: Mulish;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      margin-top: 0px;
+      margin-bottom: 16px;
+  }
+
+  .guest1-price {
+      color: #FF5400;
+      font-family: Mulish;
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      margin-top: 0px;
+      margin-bottom: 24px;
+  }
+
+  .book-btn {
+      width: 150px;
+      height: 52px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      border-style: none;
+      background: #FF5400;
+      color: #FFF;
+      text-align: center;
+      font-family: Mulish;
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      cursor: pointer;
+  }
+
+  .see-btn {
+      width: 210px;
+      height: 52px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      background: #FF5400;
+      border-style: none;
+      color: #FFF;
+      text-align: center;
+      font-family: Mulish;
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      margin-left: 480px;
+      margin-top: 48px;
+      cursor: pointer;
+  }
+
+  /* deals & discount section related styles ended */
 
   
