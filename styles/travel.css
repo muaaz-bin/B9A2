@@ -259,4 +259,196 @@
 
   /* popular tours section related styles ended */
 
+  /* choose your destination section related styles started */
+
+  .choose-destination {
+      margin-top: 100px;
+  }
+
+  .choose-destination-content {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .cd-title {
+      color: #131318;
+      text-align: center;
+      font-family: Mulish;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+  }
+
+  .cd-description {
+      width: 643px;
+      color: rgba(19, 19, 24, 0.70);
+      text-align: center;
+      font-family: Mulish;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      justify-content: center;
+      align-items: center;
+      margin-left: 399px;
+      margin-right: 399px;
+      margin-bottom: 45px;
+  }
+
+  .destination-img {
+      margin-left: 135px;
+      margin-right: 135px;
+  }
+
+  .row-1 {
+      display: flex;
+      gap: 24px;
+  }
+
+  .img-1 {
+      width: 573px;
+      height: 300px;
+      flex-shrink: 0;
+      color: #FFF;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-family: Mulish;
+      font-size: 1.75rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      border-radius: 16px;
+      background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
+  }
+
+  .img-2 {
+      width: 573px;
+      height: 300px;
+      flex-shrink: 0;
+      color: #FFF;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-family: Mulish;
+      font-size: 1.75rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      border-radius: 16px;
+      background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 8.png), lightgray 50% / cover no-repeat;
+  }
+
+  .row-2 {
+      display: flex;
+      gap: 24px;
+  }
+
+  .img-3 {
+      width: 374px;
+      height: 286px;
+      flex-shrink: 0;
+      color: #FFF;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-family: Mulish;
+      font-size: 1.75rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      border-radius: 16px;
+      background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 6.png), lightgray 50% / cover no-repeat;
+      margin-top: 0px;
+  }
+
+  .img-4 {
+      width: 474px;
+      height: 286px;
+      flex-shrink: 0;
+      color: #FFF;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-family: Mulish;
+      font-size: 1.75rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      border-radius: 16px;
+      background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
+      margin-top: 0px;
+  }
+
+  .img-5 {
+      width: 274px;
+      height: 286px;
+      flex-shrink: 0;
+      color: #FFF;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-family: Mulish;
+      font-size: 1.75rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      border-radius: 16px;
+      background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 9.png), lightgray 50% / cover no-repeat;
+      margin-top: 0px;
+  }
+
+  .row-3 {
+      display: flex;
+      gap: 24px;
+  }
+
+  .img-6 {
+      width: 473px;
+      height: 300px;
+      flex-shrink: 0;
+      text-align: center;
+      color: #FFF;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-family: Mulish;
+      font-size: 1.75rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      border-radius: 16px;
+      background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 11.png), lightgray 50% / cover no-repeat;
+      margin-top: 0px;
+  }
+
+  .img-7 {
+      width: 673px;
+      height: 300px;
+      flex-shrink: 0;
+      text-align: center;
+      color: #FFF;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-family: Mulish;
+      font-size: 1.75rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      border-radius: 16px;
+      background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 10.png), lightgray 50% / cover no-repeat;
+      margin-top: 0px;
+  }
+
+  /* choose your destination related styles ended */
+
+  /* why choose us section related styles started */
+
   
