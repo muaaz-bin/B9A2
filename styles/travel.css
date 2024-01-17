@@ -1,11 +1,19 @@
   /* Mulish font for all the text  */
   @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
+  /* * {
+      border: 1px solid red;
+  }
+
+  body {
+      border: 2px dashed blue;
+  } */
+
   * {
       font-family: 'Mulish', sans-serif;
       /* padding-left: 135px;
     padding-right: 135px; */
-   
+
   }
 
   /* nav related styles start*/
@@ -97,7 +105,7 @@
   /* banner related styles start */
 
   .banner {
-      width: 1170px;
+      max-width: 1170px;
       height: 500px;
       flex-shrink: 0;
       border-radius: 16px;
@@ -148,7 +156,7 @@
   }
 
   .where-go {
-      width: 174px;
+      max-width: 174px;
       height: 52px;
       flex-shrink: 0;
       border-radius: 8px;
@@ -165,7 +173,7 @@
   }
 
   .when-input {
-      width: 174px;
+      max-width: 174px;
       height: 52px;
       flex-shrink: 0;
       border-radius: 8px;
@@ -181,7 +189,7 @@
   }
 
   .find-now {
-      width: 174px;
+      max-width: 174px;
       height: 52px;
       flex-shrink: 0;
       border-radius: 8px;
@@ -201,7 +209,7 @@
   }
 
   .find-img {
-      width: 24px;
+      max-width: 24px;
       height: 24px;
       flex-shrink: 0;
       margin-right: 8px;
@@ -264,7 +272,7 @@
   }
 
   .read-more-btn {
-      width: 174px;
+      max-width: 174px;
       height: 52px;
       flex-shrink: 0;
       border-radius: 8px;
@@ -304,7 +312,7 @@
   }
 
   .cd-description {
-      width: 643px;
+      max-width: 643px;
       color: rgba(19, 19, 24, 0.70);
       text-align: center;
       font-family: Mulish;
@@ -490,7 +498,7 @@
   }
 
   .why-description {
-      width: 643px;
+      max-width: 643px;
       color: rgba(19, 19, 24, 0.70);
       text-align: center;
       justify-content: center;
@@ -513,7 +521,7 @@
   }
 
   .card-hotel {
-      width: 573px;
+      max-width: 573px;
       height: 284px;
       flex-shrink: 0;
       border-radius: 16px;
@@ -525,7 +533,7 @@
   }
 
   .card-hotel-img {
-      width: 64px;
+      max-width: 64px;
       height: 64px;
       flex-shrink: 0;
       margin-bottom: 0px;
@@ -544,7 +552,7 @@
   }
 
   .card-hotel-description {
-      width: 486px;
+      max-width: 486px;
       color: #5A5A5D;
       font-family: Mulish;
       font-size: 1rem;
@@ -556,7 +564,7 @@
   }
 
   .card-map {
-      width: 573px;
+      max-width: 573px;
       height: 284px;
       flex-shrink: 0;
       border-radius: 16px;
@@ -568,7 +576,7 @@
   }
 
   .card-map-img {
-      width: 64px;
+      max-width: 64px;
       height: 64px;
       flex-shrink: 0;
       margin-bottom: 0px;
@@ -587,7 +595,7 @@
   }
 
   .card-map-description {
-      width: 486px;
+      max-width: 486px;
       color: #5A5A5D;
       font-family: Mulish;
       font-size: 1rem;
@@ -607,7 +615,7 @@
   }
 
   .card-deals {
-      width: 573px;
+      max-width: 573px;
       height: 284px;
       flex-shrink: 0;
       border-radius: 16px;
@@ -619,7 +627,7 @@
   }
 
   .card-deals-img {
-      width: 64px;
+      max-width: 64px;
       height: 64px;
       flex-shrink: 0;
       margin-bottom: 0px;
@@ -638,7 +646,7 @@
   }
 
   .card-deals-description {
-      width: 486px;
+      max-width: 486px;
       color: #5A5A5D;
       font-family: Mulish;
       font-size: 1rem;
@@ -670,7 +678,7 @@
   }
 
   .deals-description {
-      width: 643px;
+      max-width: 643px;
       color: rgba(19, 19, 24, 0.70);
       text-align: center;
       font-family: Mulish;
@@ -684,7 +692,7 @@
   }
 
   .deals-box1 {
-      width: 1170px;
+      max-width: 1170px;
       height: 500px;
       flex-shrink: 0;
       border-radius: 16px;
@@ -697,7 +705,7 @@
   }
 
   .deals-details1 {
-      width: 579px;
+      max-width: 579px;
       height: 389px;
       flex-shrink: 0;
       border-radius: 16px;
@@ -716,7 +724,7 @@
   }
 
   .guest-img {
-      width: 24px;
+      max-width: 24px;
       height: 24px;
       flex-shrink: 0;
       margin-right: 8px;
@@ -747,7 +755,7 @@
   }
 
   .guest1-description {
-      width: 452px;
+      max-width: 452px;
       color: #5A5A5D;
       font-family: Mulish;
       font-size: 1rem;
@@ -770,7 +778,7 @@
   }
 
   .book-btn {
-      width: 150px;
+      max-width: 150px;
       height: 52px;
       flex-shrink: 0;
       border-radius: 8px;
@@ -787,7 +795,7 @@
   }
 
   .deals-box2 {
-      width: 1170px;
+      max-width: 1170px;
       height: 500px;
       flex-shrink: 0;
       border-radius: 16px;
@@ -800,7 +808,7 @@
   }
 
   .deals-details2 {
-      width: 579px;
+      max-width: 579px;
       height: 389px;
       flex-shrink: 0;
       border-radius: 16px;
@@ -820,7 +828,7 @@
   }
 
   .guest-img {
-      width: 24px;
+      max-width: 24px;
       height: 24px;
       flex-shrink: 0;
       margin-right: 8px;
@@ -851,7 +859,7 @@
   }
 
   .guest1-description {
-      width: 452px;
+      max-width: 452px;
       color: #5A5A5D;
       font-family: Mulish;
       font-size: 1rem;
@@ -874,7 +882,7 @@
   }
 
   .book-btn {
-      width: 150px;
+      max-width: 150px;
       height: 52px;
       flex-shrink: 0;
       border-radius: 8px;
@@ -891,7 +899,7 @@
   }
 
   .see-btn {
-      width: 210px;
+      max-width: 210px;
       height: 52px;
       flex-shrink: 0;
       border-radius: 8px;
@@ -922,7 +930,7 @@
   }
 
   .get-lost-title {
-      width: 448px;
+      max-width: 448px;
       color: #131318;
       font-family: Mulish;
       font-size: 2.5rem;
@@ -934,7 +942,7 @@
   }
 
   .get-lost-description {
-      width: 532px;
+      max-width: 532px;
       color: #5A5A5D;
       font-family: Mulish;
       font-size: 1rem;
@@ -946,7 +954,7 @@
   }
 
   .get-lost-li {
-      width: 518px;
+      max-width: 518px;
       color: #131318;
       font-family: Mulish;
       font-size: 1rem;
@@ -958,7 +966,7 @@
   }
 
   .lost-see-btn {
-      width: 174px;
+      max-width: 174px;
       height: 52px;
       flex-shrink: 0;
       border-radius: 8px;
@@ -987,7 +995,7 @@
   /* reviews section related styles started */
 
   .reviews {
-      width: 1170px;
+      max-width: 1170px;
       height: 720px;
       flex-shrink: 0;
       display: flex;
@@ -1002,7 +1010,7 @@
   }
 
   .reviews-img {
-      width: 64px;
+      max-width: 64px;
       height: 64px;
       flex-shrink: 0;
   }
@@ -1018,7 +1026,7 @@
   }
 
   .reviews-description {
-      width: 486px;
+      max-width: 486px;
       color: #5A5A5D;
       font-family: Mulish;
       font-size: 1rem;
@@ -1051,7 +1059,7 @@
   }
 
   .reviews1 {
-      width: 373px;
+      max-width: 373px;
       height: 284px;
       flex-shrink: 0;
       border-radius: 16px;
@@ -1066,7 +1074,7 @@
   }
 
   .reviews2 {
-      width: 373px;
+      max-width: 373px;
       height: 284px;
       flex-shrink: 0;
       border-radius: 16px;
@@ -1079,7 +1087,7 @@
   }
 
   .reviews-img2 {
-      width: 130px;
+      max-width: 130px;
       height: 64px;
       flex-shrink: 0;
       margin-right: 20px;
@@ -1091,7 +1099,7 @@
   }
 
   .reviews-description2 {
-      width: 386px;
+      max-width: 386px;
       color: #5A5A5D;
       font-family: Mulish;
       font-size: 0.8rem;
@@ -1115,7 +1123,7 @@
   }
 
   .newsletter-input {
-      width: 420px;
+      max-width: 420px;
       height: 400px;
       flex-shrink: 0;
       border-radius: 16px;
@@ -1139,7 +1147,7 @@
   }
 
   .newsletter-description {
-      width: 350px;
+      max-width: 350px;
       color: #5A5A5D;
       font-family: Mulish;
       font-size: 1rem;
@@ -1151,7 +1159,7 @@
   }
 
   .newsletter-line {
-      width: 420px;
+      max-width: 420px;
       height: 1px;
       background: rgba(19, 19, 24, 0.10);
       margin-top: 0px;
@@ -1161,7 +1169,7 @@
   }
 
   .newsletter-input-fld {
-      width: 400px;
+      max-width: 400px;
       height: 52px;
       flex-shrink: 0;
       border-radius: 8px;
@@ -1178,7 +1186,7 @@
   }
 
   .subs-btn {
-      width: 420px;
+      max-width: 420px;
       height: 52px;
       flex-shrink: 0;
       border-radius: 8px;
@@ -1196,7 +1204,7 @@
   }
 
   .save-img {
-      width: 100%;
+      max-width: 100%;
       /* width: 672px; */
       /* height: 422px; */
       height: 100%;
@@ -1206,7 +1214,7 @@
   }
 
   .save {
-      width: 324px;
+      max-width: 324px;
       height: 120px;
       transform: rotate(-19.628deg);
       flex-shrink: 0;
@@ -1248,7 +1256,7 @@
   /* footer related styles started */
 
   footer {
-      width: 1460px;
+      max-width: 1460px;
       height: 600px;
       flex-shrink: 0;
       background: rgba(19, 19, 24, 0.05);
@@ -1261,7 +1269,7 @@
   }
 
   .logo-footer {
-      width: 40px;
+      max-width: 40px;
       height: 46.673px;
       flex-shrink: 0;
       margin-right: 16px;
@@ -1294,7 +1302,7 @@
   }
 
   .footer-description {
-      width: 769px;
+      max-width: 769px;
       color: #5A5A5D;
       text-align: center;
       justify-content: center;
@@ -1310,7 +1318,7 @@
   }
 
   .social-link {
-      width: 174.322px;
+      max-width: 174.322px;
       height: 24px;
       flex-shrink: 0;
       display: flex;
@@ -1322,7 +1330,7 @@
   }
 
   .footer-line {
-      width: 872px;
+      max-width: 872px;
       height: 1px;
       background: rgba(19, 19, 24, 0.10);
       margin-top: 0px;
@@ -1357,16 +1365,24 @@
           margin-right: 20px;
       }
 
+      body {
+          /* border: 1px solid tomato; */
+          margin-right: 0px;
+          margin-left: 0px;
+          padding-right: 0px;
+      }
+
       nav {
           margin-left: -70px;
           margin-right: 0px;
       }
 
       .logo {
-          width: 28.724px;
+          max-width: 28.724px;
           height: 33.516px;
           flex-shrink: 0;
           margin-right: 10px;
+          margin-left: 70px;
       }
 
       .hamburger {
@@ -1380,11 +1396,11 @@
       }
 
       .banner {
-          width: 300px;
-          height:auto;
+          max-width: 500px;
+          height: auto;
           flex-shrink: 0;
           justify-content: center;
-          margin-left: -15px;
+          margin-left: 30px;
           margin-right: 0px;
           background-position: center;
       }
@@ -1393,7 +1409,7 @@
           margin-right: 148px;
           font-size: 21.543px;
           margin-left: 0px;
-          margin-right: 100px;
+          margin-right: 0px;
       }
 
       .ruch {
@@ -1419,8 +1435,12 @@
           display: none;
       }
 
+      /* .banner-content {
+          max-width: 304px;
+      } */
+
       .banner-description {
-          width: 304px;
+          max-width: 504px;
           color: #FFF;
           text-align: center;
           font-family: Mulish;
@@ -1428,15 +1448,15 @@
           font-style: normal;
           font-weight: 400;
           line-height: 26px;
-          margin-left: 247px;
-          margin-right: 247px;
+          margin-left: 57px;
+          margin-right: 47px;
           margin-top: 0px;
           margin-bottom: 15px;
       }
 
       .banner-select {
           display: flex;
-          width: 200px;
+          max-width: 200px;
           padding: 16px;
           padding-left: 10px;
           flex-direction: column;
@@ -1450,7 +1470,7 @@
       }
 
       .where-go {
-          width: 155px;
+          max-width: 155px;
           height: 52px;
           flex-shrink: 0;
           border-radius: 8px;
@@ -1515,6 +1535,8 @@
       /* popular tours section related styles start  */
 
       .popular-tours {
+          max-width: 600px;
+          align-items: center;
           display: flex;
           flex-direction: column;
           margin-top: 24px;
@@ -1595,9 +1617,9 @@
 
       .popular-tours-img2 {
           display: inline;
-          width: 335px;
+          width: 535px;
           height: 342px;
-          margin-left: 30px;
+          margin-left: 60px;
           margin-top: -24px;
           flex-shrink: 0;
           border-radius: 16px;
@@ -1610,13 +1632,14 @@
 
       .choose-destination {
           margin-top: 24px;
-          width: 300px;
+          width: 500px;
 
       }
 
       .choose-destination-content {
           display: flex;
           flex-direction: column;
+
       }
 
       .cd-title {
@@ -1631,7 +1654,7 @@
       }
 
       .cd-description {
-          width: 309px;
+          width: 409px;
           color: rgba(19, 19, 24, 0.70);
           text-align: center;
           font-family: Mulish;
@@ -1641,8 +1664,8 @@
           line-height: 24px;
           justify-content: center;
           align-items: center;
-          margin-left: -50px;
-          margin-right: 399px;
+          margin-left: 10px;
+          margin-right: 509px;
           margin-bottom: 45px;
       }
 
@@ -1650,6 +1673,7 @@
 
           margin-left: 135px;
           margin-right: 135px;
+          max-width: 500px;
       }
 
       .row-1 {
@@ -1659,7 +1683,7 @@
       }
 
       .img-1 {
-          width: 335px;
+          width: 435px;
           height: 176px;
           flex-shrink: 0;
           color: #FFF;
@@ -1667,7 +1691,7 @@
           display: flex;
           flex-direction: column;
           justify-content: center;
-          margin-left: -205px;
+          margin-left: -150px;
           margin-top: -16px;
           font-family: Mulish;
           font-size: 1.75rem;
@@ -1679,7 +1703,7 @@
       }
 
       .img-2 {
-          width: 335px;
+          width: 435px;
           height: 176px;
           flex-shrink: 0;
           color: #FFF;
@@ -1687,7 +1711,7 @@
           display: flex;
           flex-direction: column;
           justify-content: center;
-          margin-left: -205px;
+          margin-left: -150px;
           margin-top: -40px;
           margin-bottom: 16px;
           font-family: Mulish;
@@ -1706,9 +1730,9 @@
       }
 
       .img-3 {
-          width: 335px;
+          width: 435px;
           height: 176px;
-          margin-left: -205px;
+          margin-left: -150px;
           margin-top: -40px;
           flex-shrink: 0;
           color: #FFF;
@@ -1728,9 +1752,9 @@
       }
 
       .img-4 {
-          width: 335px;
+          width: 435px;
           height: 176px;
-          margin-left: -205px;
+          margin-left: -150px;
           margin-top: -50px;
           flex-shrink: 0;
           color: #FFF;
@@ -1750,9 +1774,9 @@
       }
 
       .img-5 {
-          width: 335px;
+          width: 435px;
           height: 176px;
-          margin-left: -205px;
+          margin-left: -150px;
           margin-top: -40px;
           flex-shrink: 0;
           color: #FFF;
@@ -1766,7 +1790,8 @@
           font-weight: 800;
           line-height: normal;
           border-radius: 16px;
-          background: url(../Images/Rectangle\ 9.png) linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 9.png), lightgray 50% / cover no-repeat;
+          background: url(../Images/Rectangle\ 9.png) linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 9.png), lightgray 50% / cover;
+          border-image: fill;
           margin-top: 0px;
           margin-bottom: 16px;
       }
@@ -1778,9 +1803,9 @@
       }
 
       .img-6 {
-          width: 335px;
+          width: 435px;
           height: 176px;
-          margin-left: -205px;
+          margin-left: -150px;
           margin-top: -40px;
           flex-shrink: 0;
           text-align: center;
@@ -1800,9 +1825,9 @@
       }
 
       .img-7 {
-          width: 335px;
+          width: 435px;
           height: 176px;
-          margin-left: -205px;
+          margin-left: -150px;
           margin-top: -40px;
           flex-shrink: 0;
           text-align: center;
@@ -1842,7 +1867,7 @@
       }
 
       .why-description {
-          width: 309px;
+          max-width: 409px;
           color: rgba(19, 19, 24, 0.70);
           text-align: center;
           font-family: Mulish;
@@ -1852,7 +1877,7 @@
           line-height: 24px;
           justify-content: center;
           align-items: center;
-          margin-left: -60px;
+          margin-left: 30px;
           margin-right: 20px;
           margin-bottom: 16px;
           margin-top: 0px;
@@ -1867,7 +1892,7 @@
       }
 
       .card-hotel {
-          width: 335px;
+          width: 435px;
           height: 289px;
           flex-shrink: 0;
           border-radius: 16px;
@@ -1876,7 +1901,7 @@
           padding-left: 32px;
           padding-top: 32px;
           padding-bottom: 32px;
-          margin-left: -225px;
+          margin-left: -155px;
           margin-bottom: 0px;
       }
 
@@ -1912,7 +1937,7 @@
       }
 
       .card-map {
-          width: 335px;
+          width: 435px;
           height: 289px;
           flex-shrink: 0;
           border-radius: 16px;
@@ -1923,7 +1948,7 @@
           padding-bottom: 32px;
           margin-top: 16px;
           margin-bottom: 0px;
-          margin-left: -225px;
+          margin-left: -155px;
       }
 
       .card-map-img {
@@ -1957,7 +1982,7 @@
       }
 
       .card-deals {
-          width: 335px;
+          width: 435px;
           height: 289px;
           flex-shrink: 0;
           border-radius: 16px;
@@ -1966,7 +1991,7 @@
           padding-left: 32px;
           padding-top: 32px;
           padding-bottom: 32px;
-          margin-left: -525px;
+          margin-left: -455px;
           margin-top: 16px;
       }
 
@@ -2013,11 +2038,12 @@
 
       .get-lost {
           margin-top: 24px;
-          margin-left: -80px;
+          margin-left: 50px;
           margin-right: 20px;
           display: flex;
           flex-direction: column;
           gap: 28px;
+          max-width: 500px;
       }
 
       .get-lost-title {
@@ -2074,10 +2100,11 @@
       }
 
       .get-vdo {
-          width: 335px;
+          width: 435px;
           height: 200px;
           flex-shrink: 0;
           border-radius: 16px;
+          margin-left: -30px;
           /* margin-top: 50px; */
       }
 
@@ -2086,12 +2113,12 @@
       /* reviews section related styles started */
 
       .reviews {
-          width: 335px;
+          max-width: 435px;
           height: 1500px;
           flex-shrink: 0;
           display: flex;
           flex-direction: column;
-          margin-left: -50px;
+          margin-left: 50px;
           margin-right: 135px;
           margin-top: 24px;
           border-radius: 16px;
@@ -2199,7 +2226,7 @@
       .img-star {
           display: flex;
           flex-direction: row;
-          gap: ;
+
       }
 
       .reviews-description2 {
@@ -2218,9 +2245,10 @@
       /* newsletter section related styles started */
 
       .newsletter {
+          max-width: 500px;
           display: flex;
           flex-direction: column;
-          margin-left: -70px;
+          margin-left: 50px;
           margin-right: 20px;
           margin-top: 24px;
           gap: 35px;
@@ -2365,7 +2393,7 @@
       /* footer related styles started */
 
       footer {
-          width: 375px;
+          width: 600px;
           height: 509px;
           flex-shrink: 0;
           background: rgba(19, 19, 24, 0.05);
@@ -2387,7 +2415,7 @@
           margin-right: 10px;
           margin-top: 32px;
           margin-bottom: 16px;
-          margin-left: 70px;
+          margin-left: 170px;
       }
 
       .travel-footer {
@@ -2426,7 +2454,7 @@
           line-height: 24px;
           margin-top: 0px;
           margin-bottom: 16px;
-          margin-left: 25px;
+          margin-left: 150px;
           margin-right: 44px;
       }
 
@@ -2438,7 +2466,7 @@
           justify-content: space-between;
           margin-top: 0px;
           margin-bottom: 24px;
-          margin-left: 40px;
+          margin-left: 180px;
           margin-right: 100px;
       }
 
